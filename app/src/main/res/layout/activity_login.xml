@@ -16,33 +16,21 @@
         android:transitionName="logo_image"
         android:src="@drawable/edc" />
 
-    <Button
-        android:layout_width="200dp"
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:background="#00000000"
-        android:elevation="0dp"
-        android:text="forget password" />
+        android:transitionName="logo_text"
+        android:text="Hello there, Welcome Back"
+        android:textSize="40sp" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:background="#000"
-        android:text="Go"
-        android:textColor="#fff" />
+    <TextView
+    android:id="@+id/slogan_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sign in to continue"
+    android:textSize="18sp" />
 
-
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_margin="5dp"
-        android:background="#00000000"
-        android:elevation="0dp"
-        android:text="New User? SIGN UP"
-        android:textColor="#000" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,6 +38,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical">
+
 
 
         <com.google.android.material.textfield.TextInputLayout
@@ -77,7 +66,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"/>
         </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -85,20 +74,35 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/logo_name"
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Hello there, Welcome Back"
-        android:textSize="40sp"
-        android:transitionName="logo_text" />
+        android:layout_gravity="right"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:text="forget password"/>
 
-    <TextView
-        android:id="@+id/slogan_name"
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign in to continue"
-        android:textSize="18sp" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#000"
+        android:text="Go"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:text="New User? SIGN UP"
+        android:textColor="#000"/>
+
+
+
 
 
 </LinearLayout>
