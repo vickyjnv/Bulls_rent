@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/bangersregular"
         android:text="Hello there, Welcome Back"
+        android:textColor="#000"
         android:textSize="40sp"
         android:gravity="center"
         android:transitionName="logo_text" />
@@ -32,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/bangersregular"
+        android:textColor="#000"
         android:layout_gravity="center"
         android:text="Sign in to continue"
         android:transitionName="login_signup_trans"

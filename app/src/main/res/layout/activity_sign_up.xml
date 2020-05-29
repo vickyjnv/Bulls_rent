@@ -12,11 +12,14 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/edc"
+        android:layout_gravity="center"
         android:transitionName="logo_image"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome"
+        android:textColor="#000"
+        android:layout_gravity="center"
         android:transitionName="logo_text"
         android:textSize="40sp"
         android:fontFamily="@font/alfaregular"
@@ -25,6 +28,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
         android:text="SignUp to start your journey"
         android:transitionName="logo_desc"
         android:textSize="18sp"/>
