@@ -120,12 +120,13 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/reg_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go"
-        android:transitionName="button_tran"
         android:background="#000"
-        android:textColor="#fff"/>
+        android:text="Go"
+        android:textColor="#fff"
+        android:transitionName="button_tran" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
